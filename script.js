@@ -92,7 +92,7 @@ function filterProducts() {
   renderProducts(filteredProducts);
 }
 
-// Function to render filtered products
+
 function renderProducts(filteredProducts) {
   const productList = document.querySelector('.product-list');
   productList.innerHTML = filteredProducts
