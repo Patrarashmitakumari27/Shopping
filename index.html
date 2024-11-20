@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="header">
+            <h1>Feet Perfect</h1>
+            <p><i>After all your Presentation is Matter for us</i></p>
+        </div>
+        <div class="content">
+       <div class="product-list">
+        <h2>Products</h2>
+        <div class="filter">
+            <label for="price-filter">Filter by:</label>
+            <select id="price-filter">
+                <option value="default">Select</option>
+                <option value="low-to-high">Price: Low to High</option>
+                <option value="high-to-low">Price: High to Low</option>
+            </select>
+         </div>
+         
+        <div class="product">
+         <div>
+          <div class="image" id="Img-1"><img src="Image/shoe-1.webp" alt="Product1"></div> 
+          <span>Go casual</span>
+        </div>
+        <div>
+          <p>Price: <b>999</b></p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <div>
+          <div class="image" id="Img-2"><img src="Image/shoe-2.jpeg" alt="Product2"></div>
+          <span>Gym Look</span>
+        </div>
+        <div>
+            <p>Price: <b>799</b></p>
+            <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <div>
+          <div class="image" id="Img-3"><img src="Image/shoe-3.jpeg" alt="Product3"></div>
+          <span>Party Vibe</span>
+        </div>
+        <div>
+            <p>Price: <b>1599</b></p>
+            <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <div>
+          <div class="image" id="Img-4"><img src="Image/shoe-4.jpeg" alt="Product4"></div>
+          <span>Office Look</span>
+        </div>
+        <div>
+            <p>Price: <b>1999</b></p>
+            <button>Add to Cart</button>
+        </div>
+      </div>
+      <div class="product">
+        <div>
+          <div class="image" id="Img-5"><img src="Image/shoes-5.jpeg" alt="Product5"></div>
+          <span>Ethnic Wear</span>
+        </div>
+        <div>
+            <p>Price: <b>899</b></p>
+            <button>Add to Cart</button>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="cart">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+    <div class="summary">
+      <p id="total-price">Total: ₹0</p>
+      <p id="average-price">Average Price: ₹0</p>
+      <button id="clear-cart-btn">Clear Cart</button>
+      <button id="sort-cart-btn">Sort Cart</button>
+    </div>
+</div>
+  </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
