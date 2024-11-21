@@ -1,5 +1,7 @@
-let cart = [];
+let cart = [
 
+];
+let productJson=[]
 
 function renderCart() {
   const cartItems = document.getElementById('cart-items');

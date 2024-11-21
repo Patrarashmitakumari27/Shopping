@@ -35,8 +35,9 @@ body {
     font-style: italic;
   }
   
-  .product-list {
+  #product-list {
     margin-bottom: 30px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,7 +58,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 200px;
-    height: 300px;
+    height: 320px;
   }
   
   .product .image {
@@ -83,9 +84,9 @@ body {
     color: #888;
   }
   
-  .product span:last-child {
+  .product-para {
     font-weight: bold;
-    color: #222;
+    color: #000;
   }
   
   .product button {
@@ -95,6 +96,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 10px;
   }
   
   .product button:hover {
